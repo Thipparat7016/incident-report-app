@@ -1,0 +1,23 @@
+# Database files
+backend/data/*.db
+backend/data/*.db-journal
+*.db
+*.sqlite
+
+# Go binaries and dependencies
+backend/*.exe
+*.exe
+*.test
+
+# Node dependencies and build outputs
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
